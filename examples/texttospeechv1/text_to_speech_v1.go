@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	"github.com/edwindvinas/go-sdk/texttospeechv1"
 )
 

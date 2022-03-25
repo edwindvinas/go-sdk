@@ -23,7 +23,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	"github.com/gorilla/websocket"
 )
 

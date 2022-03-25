@@ -3,7 +3,7 @@ package texttospeechv1_test
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/edwindvinas/go-sdk/texttospeechv1"

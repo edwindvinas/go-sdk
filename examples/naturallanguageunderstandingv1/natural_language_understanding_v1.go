@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	nlu "github.com/edwindvinas/go-sdk/naturallanguageunderstandingv1"
 )
 

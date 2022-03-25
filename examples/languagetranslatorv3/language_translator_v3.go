@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	languagetranslator "github.com/edwindvinas/go-sdk/languagetranslatorv3"
 )
 

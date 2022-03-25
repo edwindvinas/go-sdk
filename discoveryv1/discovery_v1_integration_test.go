@@ -24,7 +24,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
 	"github.com/edwindvinas/go-sdk/discoveryv1"

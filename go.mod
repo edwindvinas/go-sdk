@@ -3,7 +3,7 @@ module github.com/edwindvinas/go-sdk
 go 1.12
 
 require (
-	github.com/IBM/go-sdk-core v1.1.0
+	github.com/edwindvinas/go-sdk-core v1.1.0
 	github.com/go-openapi/strfmt v0.19.3
 	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/gorilla/websocket v1.4.1

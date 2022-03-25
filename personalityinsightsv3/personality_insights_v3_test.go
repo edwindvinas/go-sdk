@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	core "github.com/IBM/go-sdk-core/core"
+	core "github.com/edwindvinas/go-sdk-core/core"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/edwindvinas/go-sdk/personalityinsightsv3"

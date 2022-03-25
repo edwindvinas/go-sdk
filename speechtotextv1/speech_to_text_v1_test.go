@@ -3,7 +3,7 @@ package speechtotextv1_test
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	"net/http"
 	"net/http/httptest"
 	"os"

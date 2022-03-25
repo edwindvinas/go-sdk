@@ -19,7 +19,7 @@ package speechtotextv1
 
 import (
 	"fmt"
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	common "github.com/edwindvinas/go-sdk/common"
 	"io"
 	"strings"

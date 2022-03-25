@@ -19,7 +19,7 @@ package naturallanguageunderstandingv1
 
 import (
 	"fmt"
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	"github.com/go-openapi/strfmt"
 	common "github.com/edwindvinas/go-sdk/common"
 )

@@ -2,7 +2,7 @@ Here are simple steps to move from `v0.11.0` to `v1.0.0`.
 
 ## AUTHENTICATION MECHANISM
 
-The constructor no longer accepts individual credentials like `IAMApiKey`, etc. We initialize authenticators from the [core](https://github.com/IBM/go-sdk-core). The core supports various authentication mechanisms, choose the one appropriate to your instance and use case.
+The constructor no longer accepts individual credentials like `IAMApiKey`, etc. We initialize authenticators from the [core](https://github.com/edwindvinas/go-sdk-core). The core supports various authentication mechanisms, choose the one appropriate to your instance and use case.
 
 For example, to pass a IAM apikey:
 #### Before
@@ -16,7 +16,7 @@ NewServiceV1(&servicev1.ServiceV1Options{
 
 #### After(V1.0)
 ```go
-import "github.com/IBM/go-sdk-core/core"
+import "github.com/edwindvinas/go-sdk-core/core"
 
 authenticator := &core.IamAuthenticator{
     ApiKey:     "{apikey}",
@@ -29,12 +29,12 @@ NewServiceV1(&servicev1.ServiceV1Options{
 })
 ```
 
-There are 5 authentication variants supplied in the SDK (shown below): You can also find detailed explanation [Authentication](https://github.com/IBM/go-sdk-core/blob/master/Authentication.md)
+There are 5 authentication variants supplied in the SDK (shown below): You can also find detailed explanation [Authentication](https://github.com/edwindvinas/go-sdk-core/blob/master/Authentication.md)
 
 #### BasicAuthenticator
 ```go
 import (
-    "github.com/IBM/go-sdk-core/core"
+    "github.com/edwindvinas/go-sdk-core/core"
     "<appropriate-git-repo-url>/myservicev1"
 )
 
@@ -51,7 +51,7 @@ service := myservicev1.NewMyServiceV1(options)
 #### BearerTokenAuthenticator
 ```go
 import (
-    "github.com/IBM/go-sdk-core/core"
+    "github.com/edwindvinas/go-sdk-core/core"
     "<appropriate-git-repo-url>/myservicev1"
 )
 
@@ -67,7 +67,7 @@ service := myservicev1.NewMyServiceV1(options)
 #### CloudPakForDataAuthenticator
 ```go
 import (
-    "github.com/IBM/go-sdk-core/core"
+    "github.com/edwindvinas/go-sdk-core/core"
     "<appropriate-git-repo-url>/myservicev1"
 )
 
@@ -86,7 +86,7 @@ service := myservicev1.NewMyServiceV1(options)
 #### IAMAuthenticator
 ```python
 import (
-    "github.com/IBM/go-sdk-core/core"
+    "github.com/edwindvinas/go-sdk-core/core"
     "<appropriate-git-repo-url>/myservicev1"
 )
 ...
@@ -102,7 +102,7 @@ service := myservicev1.NewMyServiceV1(options)
 #### NoAuthAuthenticator
 ```go
 import (
-    "github.com/IBM/go-sdk-core/core"
+    "github.com/edwindvinas/go-sdk-core/core"
     "<appropriate-git-repo-url>/myservicev1"
 )
 ...
@@ -117,7 +117,7 @@ External env variables can be obtained from CREDENTIALS, Environment variables o
 
 ```go
 import (
-    "github.com/IBM/go-sdk-core/core"
+    "github.com/edwindvinas/go-sdk-core/core"
     "<appropriate-git-repo-url>/myservicev1"
 )
 ...

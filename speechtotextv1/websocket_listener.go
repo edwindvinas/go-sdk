@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/IBM/go-sdk-core/core"
+	"github.com/edwindvinas/go-sdk-core/core"
 	"github.com/gorilla/websocket"
 )
 
