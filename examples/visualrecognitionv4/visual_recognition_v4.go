@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/IBM/go-sdk-core/core"
-	"github.com/watson-developer-cloud/go-sdk/visualrecognitionv4"
+	"github.com/edwindvinas/go-sdk/visualrecognitionv4"
 )
 
 func main() {

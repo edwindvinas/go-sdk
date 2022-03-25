@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/IBM/go-sdk-core/core"
-	"github.com/watson-developer-cloud/go-sdk/personalityinsightsv3"
+	"github.com/edwindvinas/go-sdk/personalityinsightsv3"
 )
 
 func main() {

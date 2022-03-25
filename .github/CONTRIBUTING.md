@@ -5,7 +5,7 @@ please ask a question on [dW Answers][dw] or [Stack Overflow][stackoverflow].
 
 # Issues
 
-If you encounter an issue with the Go SDK, you are welcome to submit a [bug report](https://github.com/watson-developer-cloud/go-sdk/issues).
+If you encounter an issue with the Go SDK, you are welcome to submit a [bug report](https://github.com/edwindvinas/go-sdk/issues).
 Before that, please search for similar issues. It's possible somebody has encountered this issue already.
 
 # Pull Requests

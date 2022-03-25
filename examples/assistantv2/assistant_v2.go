@@ -4,17 +4,17 @@ import (
 	"fmt"
 
 	"github.com/IBM/go-sdk-core/core"
-	"github.com/watson-developer-cloud/go-sdk/assistantv2"
+	"github.com/edwindvinas/go-sdk/assistantv2"
 )
 
 func main() {
 	// Instantiate the Watson AssistantV2 service
 	authenticator := &core.IamAuthenticator{
-		ApiKey: "my-iam-apikey",
+		ApiKey: "MbThJzh3DPOgqRvF9kljaE9f2RNocPc68L1EZmB2P1DQ",
 	}
 	service, serviceErr := assistantv2.
 		NewAssistantV2(&assistantv2.AssistantV2Options{
-			URL:           "YOUR SERVICE URL",
+			URL:           "https://gateway.watsonplatform.net/assistant/api",
 			Version:       "2017-04-21",
 			Authenticator: authenticator,
 		})
@@ -26,7 +26,7 @@ func main() {
 
 	/* CREATE SESSION */
 
-	assistantID := "<YOUR ASSISTANT ID>"
+	assistantID := "c7019059-edd8-4915-b89b-461318e79590"
 	// Call the assistant CreateSession method
 	createSessionResult, _, responseErr := service.
 		CreateSession(&assistantv2.CreateSessionOptions{
@@ -46,7 +46,7 @@ func main() {
 			AssistantID: core.StringPtr(assistantID),
 			SessionID:   sessionID,
 			Input: &assistantv2.MessageInput{
-				Text: core.StringPtr("Whats the weather like?"),
+				Text: core.StringPtr("I have a slow internet"),
 			},
 			Context: &assistantv2.MessageContext{
 				Global: &assistantv2.MessageContextGlobal{

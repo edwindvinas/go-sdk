@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/IBM/go-sdk-core/core"
-	nlc "github.com/watson-developer-cloud/go-sdk/naturallanguageclassifierv1"
+	nlc "github.com/edwindvinas/go-sdk/naturallanguageclassifierv1"
 )
 
 func main() {

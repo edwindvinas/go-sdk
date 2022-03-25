@@ -20,7 +20,7 @@ package assistantv2
 import (
 	"fmt"
 	"github.com/IBM/go-sdk-core/core"
-	common "github.com/watson-developer-cloud/go-sdk/common"
+	common "github.com/edwindvinas/go-sdk/common"
 )
 
 // AssistantV2 : The IBM Watson&trade; Assistant service combines machine learning, natural language understanding, and
@@ -63,7 +63,8 @@ func NewAssistantV2(options *AssistantV2Options) (service *AssistantV2, err erro
 		}
 	}
 
-	baseService, err := core.NewBaseService(serviceOptions, "conversation", "Assistant")
+	//baseService, err := core.NewBaseService(serviceOptions, "conversation", "Assistant")
+	baseService, err := core.NewBaseService(serviceOptions)
 	if err != nil {
 		return
 	}
